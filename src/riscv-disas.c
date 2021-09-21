@@ -48,11 +48,20 @@ typedef struct {
 
 /* register names */
 
+/*
 static const char rv_ireg_name_sym[32][5] = {
     "zero", "ra",   "sp",   "gp",   "tp",   "t0",   "t1",   "t2",
     "s0",   "s1",   "a0",   "a1",   "a2",   "a3",   "a4",   "a5",
     "a6",   "a7",   "s2",   "s3",   "s4",   "s5",   "s6",   "s7",
     "s8",   "s9",   "s10",  "s11",  "t3",   "t4",   "t5",   "t6",
+};
+*/
+
+static const char rv_ireg_name_sym[32][5] = {
+    "x00", "x01", "x02", "x03", "x04", "x05", "x06", "x07", "x08", "x09",
+    "x10", "x11", "x12", "x13", "x14", "x15", "x16", "x17", "x18", "x19",
+    "x20", "x21", "x22", "x23", "x24", "x25", "x26", "x27", "x28", "x29",
+    "x30", "x31"
 };
 
 static const char rv_freg_name_sym[32][5] = {
